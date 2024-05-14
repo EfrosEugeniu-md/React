@@ -1,0 +1,11 @@
+.value {
+    font-size: 6rem;
+    font-weight: bold;
+    color: aqua;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .green{background-color: green;}

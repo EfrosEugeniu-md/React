@@ -1,0 +1,17 @@
+.filterBtn {
+  background: transparent;
+  border-color: var(--clr-gold);
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  border-radius: var(--radius);
+  padding: 0.375rem 0.75rem;
+  color: var(--clr-gold);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.filterBtn:hover {
+  background: var(--clr-gold);
+  color: var(--clr-white);
+}
