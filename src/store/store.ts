@@ -2,9 +2,9 @@ import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./rootReducer";
 
 const store = configureStore({
-    reducer: rootReducer
-})
+  reducer: rootReducer,
+});
 
-export default store
+export default store;
 
-export const appDispatch = store.dispatch
+export const appDispatch = store.dispatch;

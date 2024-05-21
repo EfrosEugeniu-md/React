@@ -8,13 +8,19 @@ export const MainPage = () => {
       <nav>
         <ul>
           <li>
-            <Link to='/one'>Page One</Link>
+            <Link to='/one'>Counter</Link>
           </li>
           <li>
-            <Link to='/two'>Page Two</Link>
+            <Link to='/two'>Reviews</Link>
           </li>
           <li>
-            <Link to='/three'>Page Three</Link>
+            <Link to='/three'>Giveaway</Link>
+          </li>
+          <li>
+            <Link to='/four'>Grocery Bud</Link>
+          </li>
+          <li>
+            <Link to='/five'>Grocery Bud</Link>
           </li>
         </ul>
       </nav>

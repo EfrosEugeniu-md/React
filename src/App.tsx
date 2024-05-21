@@ -5,6 +5,8 @@ import { Main } from "./Components/myApp2/Main/Main";
 
 import Container from "./Components/myApp3/Container/Container";
 import { TimeContainer } from "./Components/myApp12/TimeContainer/TimeContainer";
+import GroceryBudPage from "./Components/myApp14/GroceryBudPage";
+import NavBarPage from "./Components/04-navbar/NavBarPage";
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
           <Route path="one" element={<Main />} />
           <Route path="two" element={<Container />} />
           <Route path="three" element={<TimeContainer />} />
+          <Route path="four" element={<GroceryBudPage />} />
+          <Route path="five" element={<NavBarPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
