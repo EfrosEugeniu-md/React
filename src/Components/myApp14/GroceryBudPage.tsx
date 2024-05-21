@@ -110,7 +110,7 @@ export default function GroceryBudPage() {
               )
             })
           }</div>
-          <button className='clear-btn' onClick={clearItems}>
+          <button className={styles.clearBtn} onClick={clearItems}>
             clear items
           </button>
         </div>
